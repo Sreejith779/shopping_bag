@@ -31,7 +31,7 @@ class _LoginPageState extends State<LoginPage> {
       bloc: loginBloc,
       listener: (context, state) {
           if (state is LoginPageLoadedState) {
-          // Navigate to home page after successful login
+
           Navigator.pushReplacement(
             context,
             MaterialPageRoute(builder: (context) => HomePage()),
