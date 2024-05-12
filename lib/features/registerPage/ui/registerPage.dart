@@ -110,11 +110,13 @@ class _RegisterPageState extends State<RegisterPage> {
                                   name: nameController.text,
                                   email: emailController.text,
                                   password: passController.text));
+                              Navigator.push(context, MaterialPageRoute(builder: (context)=>
+                                  LoginPage())
+                              );
                             }else{
                               print("error password");
                             }
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>
-                            LoginPage()));
+
                           }else{
                             print("failed");
                           }
