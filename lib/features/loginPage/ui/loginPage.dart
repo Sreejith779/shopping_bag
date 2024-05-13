@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:shopping_bag/features/homePage/ui/homePage.dart';
+
 import 'package:shopping_bag/features/registerPage/ui/registerPage.dart';
 import 'package:shopping_bag/utils/textStyles.dart';
 
+import '../../routes/routes.dart';
 import '../bloc/login_page_bloc.dart';
 
 class LoginPage extends StatefulWidget {
@@ -34,7 +35,7 @@ class _LoginPageState extends State<LoginPage> {
 
           Navigator.pushReplacement(
             context,
-            MaterialPageRoute(builder: (context) => HomePage()),
+            MaterialPageRoute(builder: (context) => Routes()),
           );
         }
       },

@@ -1,0 +1,56 @@
+class Bags {
+  static final List<Map<String, dynamic>> bags = [
+    {
+      'category' : 'Bag',
+      'categoryImg' : 'https://m.media-amazon.com/images/I/71hhHX9VsuL._SL1500_.jpg',
+      'categoryName' : 'Bags & Luggage',
+      'productImg' : 'https://m.media-amazon.com/images/I/71maWXZscfL._SX679_.jpg',
+      'productName' : 'Safari',
+      'productDesc' : 'Wonderful bag',
+      'productPrice' : '650',
+    },
+    {
+      'category' : 'Bag',
+      'categoryImg' : 'https://m.media-amazon.com/images/I/811F-g9-STL._SL1500_.jpg',
+      'categoryName' : 'Beauty & body care',
+      'productImg' : 'https://m.media-amazon.com/images/I/61egMfcDWlL._SX679_.jpg',
+      'productName' : 'FUR JADEN',
+      'productDesc' : 'Wonderful bag',
+      'productPrice' : '450',
+    },
+    {
+      'category' : 'Bag',
+      'categoryImg' : 'https://m.media-amazon.com/images/I/81N1sCdXEiL._SX569_.jpg',
+      'categoryName' : 'Books & Stationary',
+      'productImg' : 'https://m.media-amazon.com/images/I/810s53kR8tL._SY879_.jpg',
+      'productName' : 'Sky Bag',
+      'productDesc' : 'Wonderful bag',
+      'productPrice' : '840',
+    },
+    {
+      'category' : 'Bag',
+      'categoryImg' : ' https://m.media-amazon.com/images/I/61LMpYPVBjL._SY695_.jpg',
+      'categoryName' : 'Shoes',
+      'productImg' : 'https://m.media-amazon.com/images/I/615s0XpXfYL._SX679_.jpg',
+      'productName' : 'Impulse',
+      'productDesc' : 'Wonderful bag',
+      'productPrice' : '1050',
+    }, {
+      'category' : 'Bag',
+      'categoryImg' : 'https://m.media-amazon.com/images/I/613MpxEPYaL._SL1500_.jpg',
+      'categoryName' : 'Pipes',
+      'productImg' : 'https://m.media-amazon.com/images/I/811AxL+qTpL._SY879_.jpg',
+      'productName' : 'Nike',
+      'productDesc' : 'Wonderful bag',
+      'productPrice' : '₹1099',
+    }, {
+      'category' : 'Bag',
+      'categoryImg' : 'https://m.media-amazon.com/images/I/61dTQS6s6lL._SL1500_.jpg',
+      'categoryName' : 'Clay pots',
+      'productImg' : 'https://m.media-amazon.com/images/I/61CXciYBGdL._SX679_.jpg',
+      'productName' : 'Nike',
+      'productDesc' : 'Wonderful bag',
+      'productPrice' : '₹1099',
+    },
+  ];
+}

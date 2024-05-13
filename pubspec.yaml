@@ -38,6 +38,7 @@ dependencies:
   nuts_activity_indicator: ^1.0.0
   shared_preferences: ^2.2.3
   flutter_bloc: ^8.1.5
+  carousel_slider: ^4.2.1
 
 dev_dependencies:
   flutter_test:
